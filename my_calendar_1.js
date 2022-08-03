@@ -16,7 +16,8 @@ MyCalendar.prototype.book = function(start, end) {
             return false;
         }
     }
-	this.bookedTimes.push([start, end]);
+
+    this.bookedTimes.push([start, end]);
     return true;
 	
 };
